@@ -1,0 +1,19 @@
+{
+ "destinations":[
+  {
+   "name":"Paris",
+   "country":"France",
+   "description":"City of love and Eiffel Tower"
+  },
+  {
+   "name":"Tokyo",
+   "country":"Japan",
+   "description":"Modern city with rich culture"
+  },
+  {
+   "name":"Cape Town",
+   "country":"South Africa",
+   "description":"Beautiful beaches and mountains"
+  }
+ ]
+}
