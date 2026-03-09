@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Travel Recommendation</title>
-<link rel="stylesheet" href="style.css">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-<h2>Travel Explorer</h2>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-</nav>
+    <nav>
+        <h2>Travel Explorer</h2>
 
-<h1>Find Your Next Destination</h1>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
 
-<input type="text" id="searchInput" placeholder="Search destination">
-<button onclick="search()">Search</button>
-<button onclick="resetResults()">Reset</button>
+        <input type="text" id="searchInput" placeholder="Search destinations">
+        <button onclick="searchPlaces()">Search</button>
+        <button onclick="clearResults()">Clear</button>
 
-<div id="results"></div>
+    </nav>
 
-<script src="script.js"></script>
+    <h1>Find Your Next Destination</h1>
+
+    <div id="results"></div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
