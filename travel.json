@@ -1,19 +1,33 @@
 {
- "destinations":[
+ "destinations": [
   {
-   "name":"Paris",
-   "country":"France",
-   "description":"City of love and Eiffel Tower"
+   "name": "Paris",
+   "country": "France",
+   "description": "City of love and Eiffel Tower"
   },
   {
-   "name":"Tokyo",
-   "country":"Japan",
-   "description":"Modern city with rich culture"
+   "name": "Tokyo",
+   "country": "Japan",
+   "description": "Modern city with rich culture"
   },
   {
-   "name":"Cape Town",
-   "country":"South Africa",
-   "description":"Beautiful beaches and mountains"
+   "name": "Cape Town",
+   "country": "South Africa",
+   "description": "Beautiful beaches and mountains"
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Copacabana Beach",
+   "location": "Brazil",
+   "image": "images/copacabana.jpg",
+   "description": "Beautiful beach in Rio de Janeiro."
+  },
+  {
+   "name": "Bondi Beach",
+   "location": "Australia",
+   "image": "images/bondi.jpg",
+   "description": "One of the most famous beaches in Sydney."
   }
  ]
 }
